@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6; 
+
+}
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    
+}
+
+.logo img{
+   max-width: 135px; 
+   height:auto;
+}
+
+.navmenu{
+    display:flex;
+}
+
+.navmenu a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+
+}
+
+.navmenu a:hover{
+    color:#EE1C47;
+}
+
+section{
+    padding: 15% 10%;
+    margin-bottom: 60px;
+}
+
+.main-home{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.main-home h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.main-home h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.main-home h3 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.main-home p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.main-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-text ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 60px 10%;
+}
+
+.contact h3 {
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+
+.Men-homepage{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Jeusloves.jpg);
+    background-position:center
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+.Men-homepage h1{
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.size-table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.size-table h1{
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.size-table h2{
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.apparel-grid {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.apparel-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
