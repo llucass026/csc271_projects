@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     padding: 20px 10%;
     background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
     z-index: 1000;
     
 }
@@ -144,12 +145,15 @@ section{
 .Men-homepage{
     width: 100%;
     height: 100%;
-    background-image: url(images/Jeusloves.jpg);
     background-position:center;
     background-size: cover;
     margin-bottom: 20px;
 }
 
+.menimage img{
+    max-width: 100%;
+    min-height: auto;
+}
 
 .Men-homepage h1{
     font-size: 1.1em;
@@ -192,3 +196,73 @@ section{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
+.womens-page{
+    width: 100%;
+    height: 100%;
+    
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.womens-page h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.women-text h1:hover{
+    color: #9b0926;
+
+}
+
+
+.womens-page h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.womens-page h3 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.womens-page {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.women-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.women-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.women-text ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
