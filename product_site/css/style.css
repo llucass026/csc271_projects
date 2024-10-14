@@ -315,6 +315,44 @@ section{
 }
 
 
+@media screen and (max-width: 600px) {
+   
+    .navmenu {
+        display: block;
+        text-align: center;
+    }
 
+    .navmenu li {
+        margin-bottom: 10px;
+    }
+
+  
+    .navmenu li a {
+        text-align: left;
+        display: block;
+        padding: 10px 0;
+    }
+
+   
+    .main-home {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main-text h1 {
+        font-size: 2.5em;
+    }
+
+    .main-text p {
+        font-size: 1.5em;
+    }
+
+    
+    .main-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
     
 
