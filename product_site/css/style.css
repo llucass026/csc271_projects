@@ -36,15 +36,12 @@ header{
 }
 
 
-<<<<<<< Updated upstream
-=======
 .image img{
     max-width: fit-content;
     height: auto;
 }
 
 
->>>>>>> Stashed changes
 .navmenu{
     display:flex;
 }
@@ -239,7 +236,7 @@ section{
 
 .women-content-box{
     background-color:#9b0926;
-    width:auto
+    width:auto;
     border:15px #9b0926;
     padding: 50px;
     margin: 20px;
