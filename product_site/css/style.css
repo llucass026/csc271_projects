@@ -324,7 +324,7 @@ section{
     .navmenu li a {
         text-align: left;
         display: block;
-        padding: 10px 0;
+        padding: 10px;
     }
 
     .nav-icon a{
@@ -338,7 +338,7 @@ section{
     }
 
     .main-text h1 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     .main-text p {
