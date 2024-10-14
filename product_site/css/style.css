@@ -36,6 +36,15 @@ header{
 }
 
 
+<<<<<<< Updated upstream
+=======
+.image img{
+    max-width: fit-content;
+    height: auto;
+}
+
+
+>>>>>>> Stashed changes
 .navmenu{
     display:flex;
 }
