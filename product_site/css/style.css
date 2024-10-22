@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
     
 }
 
@@ -24,11 +25,15 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
-    background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     z-index: 1000;   
 }
 
+
+
+section{
+    padding: 5% 10%;
+}
 
 .logo img{
    max-width: 135px; 
@@ -73,6 +78,27 @@ header{
 }
 
 
+.nav-icon i{
+    margin-right: 15px;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .42 ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #9b0926;
+}
+
+#menu-icon{
+    font-size: 20px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+
+}
+
 section{
     padding: 15% 10%;
     margin-bottom: 60px;
@@ -89,7 +115,7 @@ section{
 
 
 .main-home h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 10px;
     
@@ -113,7 +139,7 @@ section{
 
 
 .main-home p {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -143,6 +169,48 @@ section{
     padding: 0;
 }
 
+.articles {
+    list-style: none;
+    padding: 0; 
+    margin: 20px 0; 
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.articles li {
+    margin: 10px 0;
+}
+
+.articles a {
+    color:black;
+    text-decoration: none; 
+}
+
+.articles a:hover {
+    text-decoration: none; 
+    color:#9b0926; 
+}
+
+.mainimage img{
+    max-width: fit-content;
+    max-height: auto;
+}
+
+
+.menimage img{
+    max-width:fit-content;
+    height: auto;
+}
+
+.apparel-grid img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(300px, auto));
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
 
 .contact {
     background-color: #f9f9f9;
@@ -168,10 +236,18 @@ section{
 .Men-homepage{
     width: 100%;
     height: 100%;
+    background-image: url(image/Jeusloves.jpg);
     background-position:center;
     background-size: cover;
     margin-bottom: 20px;
 }
+
+.Men-homepage h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 
 
 .menimage img{
@@ -181,9 +257,15 @@ section{
 
 
 .Men-homepage h1{
-    font-size: 1.1em;
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.Men-homepage p{
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -223,6 +305,39 @@ section{
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.center-text{
+    text-align: center;
+}
+
+.center-text h2{
+    font-size:1.4em;
+    font-weight: 710;
+}
+
+
+.n-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto)); /* Grid for responsive layout */
+    gap: 2rem;
+
+}
+
+
+
+.row-img{
+   overflow: hidden; 
+   border-radius: 28px;
+   margin-bottom: 15px;
+}
+
+.row-img img{
+    display: block;
+    width: 100%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
 
 
 .womens-page{
