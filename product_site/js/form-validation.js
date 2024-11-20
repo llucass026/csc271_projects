@@ -29,7 +29,7 @@ nameInput.addEventListener("blur", function () {
   // Update border color based on validName after all checks
   if (validName) {
     nameInput.style.borderColor = "green";
-  }
+  } 
 });
 
 var validSubject = false; // Add the missing line to declare validSubject
