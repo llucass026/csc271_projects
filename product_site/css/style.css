@@ -70,8 +70,8 @@ header{
 	color: #2c2c2c;
 	z-index: 10001;
 	margin-right: 20px;
-	display: none;
     cursor: pointer;
+	display: none;
 }
 
 .header__image {
@@ -147,6 +147,31 @@ section{
 	transform: translateY(-5px);
 	background: var(--text-color);
 }
+
+.bttn {
+	display: inline-block; /* Changed from block to inline-block */
+	padding: 8px 16px; /* Adjusted padding for a smaller button */
+	background: #9b0926;
+	color: #f4f4f4;
+	font-size: 14px; 
+	letter-spacing: 1px;
+	font-weight: 600;
+	border-radius: 5px;
+	text-align: center; 
+	margin: 10px auto; /* Adjusted for spacing */
+	transition: all .35s ease;
+  }
+  
+  .bttn:hover {
+	transform: translateY(-5px);
+	background: var(--text-color);
+  }
+  .button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+  }  
 
 header.sticky{
 	background: var(--bg-color);
@@ -371,7 +396,7 @@ header.sticky{
 	.navlist{
 		position: absolute;
 		top: 100%;
-		left: -100%;
+		left: 0px;
 		width: 280px;
 		height: 120vh;
 		background: var(--bg-color);
@@ -771,3 +796,41 @@ section{
 }
 
 
+input[type=text], input[type=email], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	margin-top: 6px;
+  }
+  
+  input[type=submit] {
+	background-color: red;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #444444;
+  }
+  
+  #feedback {
+	margin-top: 70px;
+	color: red;
+	text-align: center;
+  }
+
+  .container h1 {
+	text-align: center;
+  }
+
+  .container {
+	text-align: center;
+	margin: 0 auto; /* Centers the form horizontally */
+	max-width: 500px; /* Optional: Set a maximum width for the form */
+  }
