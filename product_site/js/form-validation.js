@@ -33,3 +33,16 @@ nameInput.addEventListener("blur", function () {
 });
 
 var validSubject = false; // Add the missing line to declare validSubject
+
+
+
+form.addEventListener("submit", function (e) {
+  if (!validName || !validEmail) {
+    e.preventDefault(); // Prevent form submission
+    feedbackDiv.innerHTML = "Please correct the highlighted fields before submitting.";
+    feedbackDiv.style.color = "red";
+  } else {
+    feedbackDiv.innerHTML = "Form submitted successfully!";
+    feedbackDiv.style.color = "green";
+  }
+});

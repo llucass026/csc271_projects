@@ -100,7 +100,7 @@ section{
 
 .mainimage img{
     max-width: fit-content;
-    max-height: auto;
+    max-height:fit-content;
 }
 
 .wbf h2 {
@@ -376,12 +376,21 @@ header.sticky{
 		transition: .2s;
 	}
 	header.sticky{
-		padding: 14px 4%;
+		padding: 10px 4%;
 		transition: .2s;
 	}
 	section{
 		padding: 80px 4%;
 		transition: .1s;
+	}
+	.home-text {
+		display: none;
+	}
+	.center-text{
+		display: none;
+	}
+	.header-icons{
+		display: none;
 	}
 }
 
@@ -397,13 +406,13 @@ header.sticky{
 		position: absolute;
 		top: 100%;
 		left: 0px;
-		width: 280px;
+		width: 80px;
 		height: 120vh;
 		background: var(--bg-color);
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		padding: 150px 30px;
+		padding: 10px 30px;
 		transition: all .45s ease;
 	}
 	.navlist a{
@@ -413,6 +422,16 @@ header.sticky{
 	.navlist.open{
 		left: 0;
 	}
+	.home-text {
+		display: none;
+	}
+	.center-text{
+		display: none;
+	}
+	.header-icons{
+		display: none;
+	}
+	
 }
 
 .section__container {
@@ -504,7 +523,7 @@ section{
     color: #2c2c2c;
     font-size: 20px;
     font-weight: 400;
-    transition: all .42 ease;
+    transition: all 0.42s ease;
 }
 
 .nav-icon i:hover{
@@ -834,3 +853,20 @@ input[type=text], input[type=email], select, textarea {
 	margin: 0 auto; /* Centers the form horizontally */
 	max-width: 500px; /* Optional: Set a maximum width for the form */
   }
+
+
+
+  input[type=send] {
+	background-color:#9b0926;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=send]:hover {
+	background-color:#444444;
+  }
+
